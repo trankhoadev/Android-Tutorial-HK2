@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/blue"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="134dp"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/yellow"
+        tools:layout_editor_absoluteX="398dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="141dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/red"
+        tools:layout_editor_absoluteX="636dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:background="@drawable/button_radius"
+        android:text="Finish"
+        android:textSize="25dp"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="423dp"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="PLEASE TOUCH ME"
+        android:textColor="#2D58F3"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
