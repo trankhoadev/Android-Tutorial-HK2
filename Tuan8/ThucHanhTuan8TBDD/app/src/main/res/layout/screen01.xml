@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnRegsister"
+        android:id="@+id/btnRegsisterFirstScreen"
         android:layout_width="295dp"
         android:layout_height="55dp"
         android:background="@drawable/button_radius"
@@ -22,9 +22,9 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="132dp"
-        android:layout_marginRight="132dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/blue" />
@@ -50,13 +50,13 @@
         android:layout_marginEnd="104dp"
         android:layout_marginRight="104dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/yellow" />
 
     <Button
-        android:id="@+id/btnSignIn"
+        android:id="@+id/btnSignInFirstScreen"
         android:layout_width="295dp"
         android:layout_height="55dp"
         android:background="@drawable/button_radius"
@@ -72,6 +72,6 @@
         android:layout_width="644dp"
         android:layout_height="708dp"
         app:srcCompat="@drawable/cycle"
-        tools:layout_editor_absoluteX="-70dp"
-        tools:layout_editor_absoluteY="378dp" />
+        tools:layout_editor_absoluteX="-103dp"
+        tools:layout_editor_absoluteY="363dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

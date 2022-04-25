@@ -35,13 +35,13 @@
         android:inputType="textEmailAddress"
         android:textColorHint="#292929"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/emailSignIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/emailSignIn"
         android:layout_width="0dp"
         android:layout_height="66dp"
         android:layout_marginStart="64dp"
@@ -52,13 +52,13 @@
         android:inputType="textEmailAddress"
         android:textColorHint="#292929"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/passwordSignIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordSignIn"
         android:layout_width="0dp"
         android:layout_height="64dp"
         android:layout_marginStart="64dp"
@@ -69,13 +69,13 @@
         android:inputType="textPassword"
         android:textColorHint="#292929"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnSignIn"
         android:layout_width="250dp"
         android:layout_height="63dp"
         android:background="@drawable/button_radius"

@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "850752934181",
-    "firebase_url": "https://cruddatabaseandroid-8b508-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "cruddatabaseandroid-8b508",
-    "storage_bucket": "cruddatabaseandroid-8b508.appspot.com"
+    "project_number": "801513011767",
+    "project_id": "thuchanhtuan8tbdd",
+    "storage_bucket": "thuchanhtuan8tbdd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:850752934181:android:5bc05b5a74918f2a6ecacc",
+        "mobilesdk_app_id": "1:801513011767:android:b7bb5732fee64b86629db2",
         "android_client_info": {
-          "package_name": "com.example.crud_databasedemo"
+          "package_name": "com.example.practiceweeks8"
         }
       },
       "oauth_client": [
         {
-          "client_id": "850752934181-4hpf2k5g6926h0u5gvl3311hslo71bdf.apps.googleusercontent.com",
+          "client_id": "801513011767-aifv3t6pbme12kiua00tspvnm5215ufl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA8Tt0IQFA9kGhipKwChp5Got96hk3ZE88"
+          "current_key": "AIzaSyANlx-Sc8IweJPdxaUwBD3rQNS-ARQXlgc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "850752934181-4hpf2k5g6926h0u5gvl3311hslo71bdf.apps.googleusercontent.com",
+              "client_id": "801513011767-aifv3t6pbme12kiua00tspvnm5215ufl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
